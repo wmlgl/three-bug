@@ -90,7 +90,7 @@ const Index = {
     asyncLoadModel: function () {
         let scene = Index.scene;
         let loader = new FBXLoader();
-        loader.load('model/bug.fbx', function (object) {
+        loader.load('../model/bug.fbx', function (object) {
             object.traverse(function (child) {
                 if (child.isMesh) {
                     child.castShadow = true;
@@ -146,7 +146,7 @@ const Index = {
         }, function(e){
             console.error(e);
         });
-        loader.load('model/map.fbx', function (object) {
+        loader.load('../model/map.fbx', function (object) {
             object.traverse(function (child) {
                 if (child.isMesh) {
                     child.receiveShadow = true;
