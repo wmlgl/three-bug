@@ -216,7 +216,7 @@ const Index = {
             }
         }
         Index.setBugPose(bugModel.poseAngle);
-        bugModel.positionModify.bug.add(bugModel.directionOriginal.bug.clone().multiplyScalar(-0.01));
+        bugModel.positionModify.bug.add(bugModel.directionOriginal.bug.clone().multiplyScalar(-0.025));
     }
 }
 
