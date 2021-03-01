@@ -20,7 +20,7 @@
   "name": "three-bug",
   "main": "webpack.config.js",
   "dependencies": {
-    "three": "^0.106.1"
+    "three": "^0.125.0"
   },
   "repository": {
     "type": "git",
